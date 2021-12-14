@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="inner-container">
+            <nav class='nav flex-between'>
+                <div class="profile-image-box">
+                    <img class='profile-image' src="./assets/profile.jpg"/>
+                </div>
+                <ul class="nav__list flex-row">
+                    <li class="nav__list-item"><a class="nav-link nav__link--white" href="#history">01. History</a></li>
+                    <li class="nav__list-item"><a class="nav-link nav__link--white" href="#climb">02. Team</a></li>
+                </ul>
+            </nav>
+            <div class='title-box flex-column center-block'>
+                <span class='title-text title-text--brown title-text--lg'>Losangeles</span>
+                <span class='title-text title-text--blue title-text--lg'>Mountains</span>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="inner-container">
+                <nav class='flex-between'>
+                    <div class='flex-row'>
+                        <div class="profile-image-box">
+                            <img class='profile-image' src="./assets/profile.jpg"/>
+                        </div>
+                        <div class='title-box flex-column'>
+                            <span class='title-text title-text--brown'>Losangeles</span>
+                            <span class='title-text title-text--blue'>Mountains</span>
+                        </div>
+                    </div>
+                    <ul class="nav__list flex-row">
+                        <li class="nav__list-item"><a class="nav-link nav__link--brown" href="#history">01. History</a></li>
+                        <li class="nav__list-item"><a class="nav-link nav__link--brown" href="#climb">02. Team</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <section id="history" class="history">
+            <div class="inner-container">
+                <div class='flex-row'>
+                    <p class="section-number section-number--light-grey">01</p>
+                    <div class='flex-column title-square-box'>
+                        <p class='section-title'>History</p>
+                        <span class="square square--light-grey"></span>
+                    </div>
+                </div>
+                <p class='history-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+            <div class='carousel-box'>
+                 <div class="carousel">
+                    <div class="carousel-inner flex">
+                        <div class="carousel__image-box">
+                            <img class="carousel__image" src='./assets/car1.jpg' />
+                        </div>
+                        <div class="carousel__image-box">
+                            <img class="carousel__image" src="./assets/car2.jpg" />
+                        </div>
+                        <div class="carousel__image-box">
+                            <img class="carousel__image" src="./assets/car1.jpg" />
+                        </div>
+                        <div class="carousel__image-box">
+                            <img class="carousel__image" src="./assets/car2.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id='climb' class="climb">
+            <div class='container'>
+                <div class="inner-container">
+                    <div class='flex-row flex-end'>
+                        <p class="section-number section-number--grey">02</p>
+                        <div class='flex-column title-square-box'>
+                            <p class='section-title'>Climb</p>
+                            <span class="square square--grey"></span>
+                        </div>
+                        <p class='climb-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class='tab-box'>
+                <ul class='inner-container nav__list flex-row'>
+                    <li id='tab-button-one' class="tab__list-item tab__list-item--primary" onclick="openTab('tabOne')">Mountain 1</li>
+                    <li id='tab-button-two' class="tab__list-item tab__list-item--secondary" onclick="openTab('tab1Two')">Mountain 2</li>
+                </ul>
+            </div>
+            <div class='inner-container'>
+                <div class='card'>
+                    <h2 class='card__title'>Schedule</h2>
+                    <div class='card__item flex-between'>
+                        <p>25 November 2016</p>
+                        <p>Vestibulum viverra</p>
+                    </div>
+                    <div class='card__item flex-between'>
+                        <p>25 November 2016</p>
+                        <p>Vestibulum viverra</p>
+                    </div>
+                    <div class='card__item flex-between'>
+                        <p>25 November 2016</p>
+                        <p>Vestibulum viverra</p>
+                    </div>
+                    <div class='card__item flex-between'>
+                        <p>25 November 2016</p>
+                        <p>Vestibulum viverra</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class='footer'>
+        <div class="inner-container">
+            <nav class='flex-between'>
+                <div class='flex-row'>
+                    <div class="profile-image-box">
+                        <img class='profile-image' src="./assets/profile.jpg"/>
+                    </div>
+                    <div class='title-box flex-column'>
+                        <span class='title-text title-text--light-grey'>Losangeles</span>
+                        <span class='title-text title-text--light-grey'>Mountains</span>
+                    </div>
+                </div>
+                <p class='footer-text'>Copyright 2016. All rights reserved.</p>
+            </nav>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
