@@ -27,7 +27,7 @@ html{
 
 body{
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .flex-row{
@@ -40,16 +40,19 @@ body{
     flex-direction: column;
 }
 
+.align-center{
+    align-items: center;
+}
+
 .header{
     background: url('./assets/top.jpg') no-repeat center;
     background-size: cover;
-    position: relative;
     height: 100vh;
 }
 
 .center-block{
     position: absolute;
-    top: 50%; 
+    top: 40%; 
     right: 50%;
     transform: translate(50%,-50%);
 }
@@ -100,6 +103,8 @@ body{
 .nav__list-item{
     padding-bottom: .1rem;
     text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
 }
 
 .nav__list-item:not(:last-child){
@@ -127,11 +132,14 @@ body{
 .title-text{
     font-size: 1.5rem;
     text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 0.9;
 }
 
-.title-text--lg{
-    font-size: 4.5rem;
+.title-text--md{
+    font-size: 1.6rem;
 }
+
 
 .title-text--brown{
     color: var(--brown);
@@ -140,8 +148,17 @@ body{
 .title-text--blue{
     color: #3b4c63;
 }
+
 .title-text--light-grey{
     color: var(--light-grey);
+}
+
+.title-text--lg{
+    font-size: 7.5rem;
+}
+
+.title-text--lgr{
+    font-size: 8rem;
 }
 
 .history{
@@ -156,11 +173,13 @@ body{
     color: var(--dark-grey);
     font-weight: 700;
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
 }
 
 .section-number{
     font-size: 5rem;
-    margin-bottom: -1rem;
+    margin-bottom: -1.5rem;
+    font-family: 'Oswald', sans-serif;
 }
 
 .section-number--light-grey{
@@ -203,12 +222,11 @@ body{
 }
 
 .climb{
-    background-image: url('./assets/bot.jpg');
+    background-image: url('./assets/bot1.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    position: relative;
-    height: 65vh;
+    height: 80vh;
 }
 
 .climb-text{
@@ -224,6 +242,8 @@ body{
     font-size: .8rem;
     text-transform: uppercase;
     color: var(--light-grey);
+    font-weight: 900;
+    font-style: italic;
 }
 
 .flex-end{
@@ -237,6 +257,7 @@ body{
 .tab__list-item{
     text-transform: uppercase;
     padding: .5rem 1rem;
+    font-family: 'Oswald', sans-serif;
 }
 
 .tab__list-item:hover{
@@ -297,9 +318,7 @@ body{
     font-size: 1.5rem;
     text-transform: uppercase;
     margin-bottom: .5rem;
-}
-
-.card__item{
+    font-family: 'Oswald', sans-serif;
 }
 
 .card__item:nth-child(4){
