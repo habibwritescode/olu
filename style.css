@@ -162,10 +162,10 @@ body{
 }
 
 .history{
-    background: url('./assets/mid.jpg') no-repeat center;
+    background: url('./assets/peak.png') no-repeat center;
     background-size: cover;
     position: relative;
-    height: 90vh;
+    min-height: 120vh;
 }
 
 .section-title{
