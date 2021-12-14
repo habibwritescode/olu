@@ -68,6 +68,12 @@ body{
     margin: 0 auto;
 }
 
+@media only screen and (min-width: 22.5em){
+    .inner-container{
+        width: 80vw;
+    }
+  }
+
 .flex-between{
     display: flex;
     justify-content: space-between;
