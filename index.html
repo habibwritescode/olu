@@ -106,34 +106,70 @@
                     </div>
                 </div>
             </div>
-            <div class='tab-box'>
-                <ul class='inner-container nav__list flex-row'>
-                    <li id='tab-button-one' class="tab__list-item tab__list-item--primary" onclick="openTab('tabOne')">Mountain 1</li>
-                    <li id='tab-button-two' class="tab__list-item tab__list-item--secondary" onclick="openTab('tab1Two')">Mountain 2</li>
-                </ul>
-            </div>
-            <div class='inner-container'>
-                <div class='card'>
-                    <h2 class='card__title'>Schedule</h2>
-                    <div class='card__item flex-between'>
-                        <p>25 November 2016</p>
-                        <p>Vestibulum viverra</p>
-                    </div>
-                    <div class='card__item flex-between'>
-                        <p>25 November 2016</p>
-                        <p>Vestibulum viverra</p>
-                    </div>
-                    <div class='card__item flex-between'>
-                        <p>25 November 2016</p>
-                        <p>Vestibulum viverra</p>
-                    </div>
-                    <div class='card__item flex-between'>
-                        <p>25 November 2016</p>
-                        <p>Vestibulum viverra</p>
+            
+            <section class="ootb-tabcordion">
+                <div class='tab-box'>
+                    <div class="ootb-tabcordion--tabs inner-container" role="tablist" aria-label="TabCordion">
+                        <button class="tab is-active" role="tab" aria-selected="true" aria-controls="tab1-tab" id="tab1">Mountain 1</button>
+                        <button class="tab" role="tab" aria-selected="false" aria-controls="tab2-tab" id="tab2" tabindex="-1">Mountain 2</button>
                     </div>
                 </div>
-            </div>
-
+                <section id="tab1-tab" class="ootb-tabcordion--entry is-active" data-title="Mountain 1" tabindex="0" role="tabpanel" aria-labelledby="tab1">
+                    <div class="ootb-tabcordion--entry-container">
+                        <div class="ootb-tabcordion--entry-content entry1">
+                            <div class='inner-container'>
+                                <div class='card'>
+                                    <h2 class='card__title'>Schedule</h2>
+                                    <div class='card__item flex-between'>
+                                        <p>25 November 2016</p>
+                                        <p>Vestibulum viverra</p>
+                                    </div>
+                                    <div class='card__item flex-between'>
+                                        <p>25 November 2016</p>
+                                        <p>Vestibulum viverra</p>
+                                    </div>
+                                    <div class='card__item flex-between'>
+                                        <p>25 November 2016</p>
+                                        <p>Vestibulum viverra</p>
+                                    </div>
+                                    <div class='card__item flex-between'>
+                                        <p>25 November 2016</p>
+                                        <p>Vestibulum viverra</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="tab2-tab" class="ootb-tabcordion--entry" data-title="Mountain 2" tabindex="-1" role="tabpanel" aria-labelledby="tab2">
+                    <div class="ootb-tabcordion--entry-container">
+                        <div class="ootb-tabcordion--entry-content entry2">
+                            <div class='inner-container'>
+                                <div class='card'>
+                                    <h2 class='card__title'>Schedule</h2>
+                                    <div class='card__item flex-between'>
+                                        <p>25 November 2016</p>
+                                        <p>Vestibulum viverra</p>
+                                    </div>
+                                    <div class='card__item flex-between'>
+                                        <p>25 November 2016</p>
+                                        <p>Vestibulum viverra</p>
+                                    </div>
+                                    <div class='card__item flex-between'>
+                                        <p>25 November 2016</p>
+                                        <p>Vestibulum viverra</p>
+                                    </div>
+                                    <div class='card__item flex-between'>
+                                        <p>25 November 2016</p>
+                                        <p>Vestibulum viverra</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
         </section>
     </main>
     <footer class='footer'>
